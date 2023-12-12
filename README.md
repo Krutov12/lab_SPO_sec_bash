@@ -1,18 +1,57 @@
-# lab_SPO_first_bash
+# lab_SPO_sec_bash
 
-1. Напишите сценарий, который принимает целое число в качестве аргумента и возвращает «Четное» для четных чисел или «Нечетное» для нечетных чисел.
+#1
 
-<img width="281" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/aaa17dd9-33d8-4d41-9e37-63ce4db5e126">
+Суммирование
 
-<img width="256" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/09ef75bb-4296-4e38-adee-45646fc940e2">
+Напишите программу, которая находит суммирование каждого числа от 1 до num. Число всегда будет целым положительным числом, большим 0.
 
-2. Создайте функцию, которая проверяет, делится ли число n на два числа x И y. Все входные данные являются положительными, ненулевыми числами.
+Например:
 
-Пример:
-1) n =   3, x = 1, y = 3 =>  true because   3 is divisible by 1 and 3
-2) n =  12, x = 2, y = 6 =>  true because  12 is divisible by 2 and 6
-3) n = 100, x = 5, y = 3 => false because 100 is not divisible by 3
-4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
-<img width="480" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/8d1f1aec-c229-41c7-a7e8-c5843d6fd466">
-<img width="380" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/7626f42f-c931-41d8-9708-f43df219496e">
+sum(2) -> 3
 
+1 + 2
+
+sum(8) -> 36
+
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+<img width="225" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/3409164c-9be3-4f91-be7a-14aaf5309892">
+<img width="261" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/14906938-2dd7-45f9-927d-cceeb81087b8">
+
+#2
+
+Возьмите 2 строки s1 и s2, включающие только буквы от a до z.
+
+Возвращает новую отсортированную строку, максимально длинную, содержащую различные буквы - каждая из которых берется только один раз - исходящие из s1 или s2.
+
+a = "xyaabbbccccdefww"
+
+b = "xxxxyyyyabklmopq"
+
+longest(a, b) -> "abcdefklmopqwxy"
+
+a = "abcdefghijklmnopqrstuvwxyz"
+
+longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+<img width="470" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/f843e7aa-9db8-4337-9991-943cc24350b5">
+<img width="471" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/45268191-2ab7-4bfd-a81e-54d1133c32a4">
+
+#3
+
+Джон пригласил друзей. Его список:
+
+s = "Ann:Russel;John:Gates;Paul:Wahl;Alex:Tolkien;Ann:Bell;Lewis:Kern;Sarah:Rudd;Sydney:Korn;Madison:Meta";
+
+Нужно написать программу, которая переводит эту строку в верхний регистр и сортирует ее в алфавитном порядке по фамилии.
+
+Если фамилии совпадают, отсортируйте их по имени. Фамилия и имя гостя вводятся в результате в скобках через запятую.
+
+Таким образом, результатом будет:
+
+"(BELL, ANN)(GATES, JOHN)(KERN, LEWIS)(KORN, SYDNEY)(META, MADISON)(RUDD, SARAH)(RUSSEL, ANN)(TOLKIEN, ALEX)(WAHL, PAUL)"
+
+Может случиться так, что в двух разных семьях с одинаковой фамилией два человека также имеют одинаковое имя.
+
+<img width="401" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/755563f0-ac78-4c69-ba26-1f5016130014">
+
+<img width="450" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/a08b50e8-32ae-408c-8c0b-cec1ca006aab">
