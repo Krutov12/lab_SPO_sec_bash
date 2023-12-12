@@ -15,7 +15,8 @@ sum(2) -> 3
 sum(8) -> 36
 
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 ''
-<img width="225" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/3409164c-9be3-4f91-be7a-14aaf5309892">''
+
+<img width="225" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/3409164c-9be3-4f91-be7a-14aaf5309892">' '
 <img width="261" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/14906938-2dd7-45f9-927d-cceeb81087b8">
 
 #2
