@@ -14,4 +14,5 @@
 3) n = 100, x = 5, y = 3 => false because 100 is not divisible by 3
 4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
 <img width="480" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/8d1f1aec-c229-41c7-a7e8-c5843d6fd466">
-<img width="480" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/c590fa2c-4e89-42d4-b3be-487b02809438">
+<img width="380" alt="image" src="https://github.com/Krutov12/lab_SPO_first_bash/assets/77206997/7626f42f-c931-41d8-9708-f43df219496e">
+
