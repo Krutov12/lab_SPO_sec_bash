@@ -34,6 +34,7 @@ longest(a, b) -> "abcdefklmopqwxy"
 a = "abcdefghijklmnopqrstuvwxyz"
 
 longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+
 <img width="470" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/f843e7aa-9db8-4337-9991-943cc24350b5">
 <img width="471" alt="image" src="https://github.com/Krutov12/lab_SPO_sec_bash/assets/77206997/45268191-2ab7-4bfd-a81e-54d1133c32a4">
 
